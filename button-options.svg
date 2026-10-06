@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Ten start button options</title>
+  <desc id="desc">A night-sky themed preview sheet showing ten different start button labels and styles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#30346b"/><stop offset="1" stop-color="#12152f"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#000" flood-opacity=".3"/></filter>
+    <style>
+      .sans { font-family: ui-rounded, 'Avenir Next', system-ui, sans-serif; }
+      .label { fill: #b4b1d0; font-size: 19px; font-weight: 700; letter-spacing: 1px; }
+      .btntext { fill: #fff; font-size: 22px; font-weight: 800; }
+    </style>
+  </defs>
+  <rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+  <circle cx="1045" cy="95" r="52" fill="#ffd95a" opacity=".95"/>
+  <circle cx="1023" cy="82" r="52" fill="#30346b"/>
+  <text x="70" y="78" class="sans" fill="#f6f3ff" font-size="38" font-weight="800">Choose your start button</text>
+  <text x="70" y="112" class="sans" fill="#b4b1d0" font-size="18">Night-sky theme · ten visual directions</text>
+
+  <g class="sans" filter="url(#shadow)">
+    <rect x="70" y="160" width="500" height="120" rx="22" fill="#20234a" stroke="#454a87"/>
+    <text x="102" y="194" class="label">01 · CLEAN &amp; CLASSIC</text>
+    <rect x="102" y="216" width="220" height="48" rx="13" fill="#ff6fae"/><text x="212" y="247" class="btntext" text-anchor="middle">Start Game</text>
+
+    <rect x="630" y="160" width="500" height="120" rx="22" fill="#20234a" stroke="#454a87"/>
+    <text x="662" y="194" class="label">02 · GOAL-FOCUSED</text>
+    <rect x="662" y="216" width="240" height="48" rx="13" fill="#65d9e8"/><text x="782" y="247" class="btntext" text-anchor="middle" fill="#12152f">Save the Smile</text>
+
+    <rect x="70" y="310" width="500" height="120" rx="22" fill="#20234a" stroke="#454a87"/>
+    <text x="102" y="344" class="label">03 · FRIENDLY</text>
+    <rect x="102" y="366" width="190" height="48" rx="24" fill="#ffd95a"/><text x="197" y="397" class="btntext" text-anchor="middle" fill="#243447">Let’s Play!</text>
+
+    <rect x="630" y="310" width="500" height="120" rx="22" fill="#20234a" stroke="#454a87"/>
+    <text x="662" y="344" class="label">04 · ENERGETIC</text>
+    <rect x="662" y="366" width="195" height="48" rx="13" fill="#ff6fae" stroke="#ffd95a" stroke-width="3"/><text x="759" y="397" class="btntext" text-anchor="middle">Keep It Up!</text>
+
+    <rect x="70" y="460" width="500" height="120" rx="22" fill="#20234a" stroke="#454a87"/>
+    <text x="102" y="494" class="label">05 · DIRECT</text>
+    <rect x="102" y="516" width="245" height="48" rx="13" fill="#30346b" stroke="#65d9e8" stroke-width="3"/><text x="224" y="547" class="btntext" text-anchor="middle">Protect the Face</text>
+
+    <rect x="630" y="460" width="500" height="120" rx="22" fill="#20234a" stroke="#454a87"/>
+    <text x="662" y="494" class="label">06 · DRAMATIC</text>
+    <rect x="662" y="516" width="270" height="48" rx="13" fill="#8b5cf6"/><text x="797" y="547" class="btntext" text-anchor="middle">Begin the Challenge</text>
+
+    <rect x="70" y="610" width="500" height="120" rx="22" fill="#20234a" stroke="#454a87"/>
+    <text x="102" y="644" class="label">07 · CUTE</text>
+    <rect x="102" y="666" width="200" height="48" rx="24" fill="#ff9fcb"/><text x="202" y="697" class="btntext" text-anchor="middle" fill="#432541">Make It Smile</text>
+
+    <rect x="630" y="610" width="500" height="120" rx="22" fill="#20234a" stroke="#454a87"/>
+    <text x="662" y="644" class="label">08 · URGENT</text>
+    <rect x="662" y="666" width="205" height="48" rx="13" fill="#ff5b6e"/><text x="765" y="697" class="btntext" text-anchor="middle">Don’t Let Go!</text>
+  </g>
+
+  <g class="sans" filter="url(#shadow)">
+    <rect x="70" y="760" width="500" height="100" rx="22" fill="#20234a" stroke="#454a87"/>
+    <text x="102" y="792" class="label">09 · ARCADE</text>
+    <rect x="102" y="812" width="190" height="36" rx="8" fill="#65d9e8"/><text x="197" y="837" class="btntext" font-size="18" text-anchor="middle" fill="#12152f">Launch Game</text>
+    <rect x="630" y="760" width="500" height="100" rx="22" fill="#20234a" stroke="#454a87"/>
+    <text x="662" y="792" class="label">10 · ACTION</text>
+    <rect x="662" y="812" width="200" height="36" rx="8" fill="#ffd95a"/><text x="762" y="837" class="btntext" font-size="18" text-anchor="middle" fill="#243447">Start Saving!</text>
+  </g>
+</svg>
